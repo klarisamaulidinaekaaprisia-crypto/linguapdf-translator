@@ -5,7 +5,7 @@ import {
   FlaskConical,
   GraduationCap,
 } from "lucide-react";
-import { Section, SectionHeading } from "./Section";
+import { Section } from "./Section";
 import { Reveal } from "./Reveal";
 
 const CATEGORIES = [
@@ -40,5 +40,3 @@ export function SocialProof() {
     </Section>
   );
 }
-
-export { SectionHeading };
